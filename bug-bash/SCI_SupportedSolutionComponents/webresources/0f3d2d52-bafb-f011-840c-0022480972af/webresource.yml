@@ -1,0 +1,12 @@
+WebResource:
+  WebResourceId: '{0f3d2d52-bafb-f011-840c-0022480972af}'
+  Name: sci_Image1
+  DisplayName: Image1
+  WebResourceType: 6
+  IntroducedVersion: 1.0.0.0
+  IsEnabledForMobileClient: 0
+  IsAvailableForMobileOffline: 0
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  IsHidden: 0
+  FileName: /webresources/0f3d2d52-bafb-f011-840c-0022480972af/sci_Image10F3D2D52-BAFB-F011-840C-0022480972AF.jpg

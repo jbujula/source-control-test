@@ -1,0 +1,17 @@
+ImportExportXml:
+  '@version': 9.2.26031.8
+  '@SolutionPackageVersion': 9.2
+  '@languagecode': 1033
+  '@generatedBy': CrmLive
+  '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SolutionManifest:
+    UniqueName: SCI_SupportedSolutionComponents
+    LocalizedNames:
+      LocalizedName:
+        '@description': SCI_SupportedSolutionComponents
+        '@languagecode': 1033
+    Descriptions: 
+    Version: 1.0.0.2
+    Managed: 0
+    Publisher:
+      UniqueName: SCI

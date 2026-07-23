@@ -1,0 +1,12 @@
+environmentvariabledefinition:
+  '@schemaname': sci_SCIEnvVarDecimal1
+  displayname:
+    '@default': SCIEnvVarDecimal1
+    label:
+      '@description': SCIEnvVarDecimal1
+      '@languagecode': 1033
+  introducedversion: 1.0.0.0
+  iscustomizable: 1
+  isrequired: 0
+  secretstore: 0
+  type: 100000001

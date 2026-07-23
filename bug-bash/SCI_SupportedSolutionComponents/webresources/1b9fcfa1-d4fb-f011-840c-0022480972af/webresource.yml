@@ -1,0 +1,12 @@
+WebResource:
+  WebResourceId: '{1b9fcfa1-d4fb-f011-840c-0022480972af}'
+  Name: sci_script.js
+  DisplayName: sci_script.js
+  WebResourceType: 3
+  IntroducedVersion: 1.0.0.0
+  IsEnabledForMobileClient: 0
+  IsAvailableForMobileOffline: 0
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  IsHidden: 0
+  FileName: /webresources/1b9fcfa1-d4fb-f011-840c-0022480972af/sci_scriptjs1B9FCFA1-D4FB-F011-840C-0022480972AF.js

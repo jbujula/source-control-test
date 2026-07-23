@@ -1,0 +1,28 @@
+SdkMessageProcessingStep:
+  '@Name': 'SCIPlugins.SCIPlugin1: Update of sci_scitable1'
+  '@SdkMessageProcessingStepId': '{7cd2909e-50fd-f011-840c-0022480972af}'
+  SdkMessageId: 20bebb1b-ea3e-db11-86a7-000a3a5473e8
+  PluginTypeName: SCIPlugins.SCIPlugin1, SCIPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6c657bbb20fb046d
+  PluginTypeId: ad67d5c9-5b41-4e78-a9da-f3d23aa68726
+  PrimaryEntity: sci_scitable1
+  AsyncAutoDelete: 0
+  Description: 'SCIPlugins.SCIPlugin1: Update of sci_scitable1'
+  FilteringAttributes: sci_name
+  InvocationSource: 1
+  Mode: 0
+  Rank: 1
+  EventHandlerTypeCode: 4602
+  Stage: 20
+  IsCustomizable: 1
+  IsHidden: 0
+  SupportedDeployment: 0
+  IntroducedVersion: 1.0
+  SdkMessageProcessingStepImages:
+    SdkMessageProcessingStepImage:
+      '@Name': scitableimage
+      SdkMessageProcessingStepImageId: '{b5bac4d2-50fd-f011-840c-0022480972af}'
+      Attributes: sci_name,statecode,statuscode
+      EntityAlias: scitableimage
+      ImageType: 0
+      MessagePropertyName: Target
+      IsCustomizable: 1

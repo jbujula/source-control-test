@@ -1,0 +1,54 @@
+AITemplate:
+  msdyn_uniquename: SCICustomTextRecognition
+  msdyn_resourceinfo: '{"ResourceType":"CognitiveService","CognitiveInfo":{"CognitiveType":"SCICustomTextRecognition"}, "ModelStorageType":"None"}'
+  msdyn_istrainable: 0
+  msdyn_rundataspecification: >-
+    {
+      "SpecFormatVersion": 1,
+      "InputRootEntity": {
+        "DisplayName": "",
+        "Attributes": {
+          "base64Encoded": { "Type": "Image", "DisplayName": "Image" }
+        }
+      },
+      "OutputRootEntity": {
+        "DisplayName": "",
+        "Attributes": {
+          "fullText": { "Type": "String", "DisplayName": "Full text" },
+           "results": {
+              "Type": "Array",
+              "Entity": {
+                 "DisplayName": "",
+                 "Attributes": {
+                    "page": { "Type": "Integer", "DisplayName": "Page number" },
+                    "fullPageText": { "Type": "String", "DisplayName": "Full page text" },
+                    "lines": {
+                      "Type": "Array",
+                      "Entity": {
+                        "DisplayName": "",
+                        "Attributes": {
+                          "text": { "Type": "String", "DisplayName": "Detected text" },
+                          "boundingBox": {
+                            "Type": "Object",
+                            "Entity": {
+                              "DisplayName": "Bounding box",
+                              "Attributes": {
+                                "top": { "Type": "Real" },
+                                "left": { "Type": "Real" },
+                                "width": { "Type": "Real" },
+                                "height": { "Type": "Real" }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                 }
+              }
+           }
+        }
+      }
+    }
+  msdyn_aitemplateid: '{7f420f5b-dbfa-4272-833b-45c14dd561e6}'
+  IsCustomizable: 0
+  msdyn_templateversion: 1

@@ -1,0 +1,77 @@
+systemform:
+  formid: '{b4bb5185-f4cd-48b7-8f8e-2621bb7d387e}'
+  IntroducedVersion: 1.0
+  FormPresentation: 1
+  FormActivationState: 1
+  form:
+    tabs:
+      tab:
+        '@verticallayout': true
+        '@id': '{e168aa9c-9825-4e0d-a6f5-c4bf34307185}'
+        '@name': StageStep3
+        '@locklevel': 0
+        '@expanded': true
+        '@visible': false
+        '@labelid': '{25b761b6-77d8-4451-83cd-b5e8ae5d7c43}'
+        labels:
+          label:
+            '@description': Stage1
+            '@languagecode': 1033
+        columns:
+          column:
+            '@width': 100%
+            sections:
+              section:
+                '@showbar': false
+                '@columns': 1
+                '@id': '{7d72a3ba-cf17-eb92-6818-5a2fc2dc03a2}'
+                '@name': StageStep3_section1
+                '@labelid': '{6f81b9f6-044c-4105-b4cb-46435b174141}'
+                labels:
+                  label:
+                    '@description': Stage1
+                    '@languagecode': 1033
+                rows:
+                  row:
+                  - cell:
+                      '@id': '{f764b5fa-6890-45c0-a9e1-a512f5bfbb17}'
+                      '@showlabel': true
+                      '@visible': true
+                      '@labelid': '{21e24348-d903-483c-98d0-2b62856d3d0f}'
+                      labels:
+                        label:
+                          '@description': Step1
+                          '@languagecode': 1033
+                      control:
+                        '@id': bpf_sci_scitable1_sci_scibusinessprocessflow1:sci_name
+                        '@classid': '{4273edbd-ac1d-40d3-9fb2-095c621b552d}'
+                        '@datafieldname': sci_name
+                        '@relationship': bpf_sci_scitable1_sci_scibusinessprocessflow1
+                        '@isrequired': true
+                        '@disabled': false
+                  - cell:
+                      '@id': '{2d8b0a44-7142-4760-b6bb-4f80b517c788}'
+                      '@showlabel': true
+                      '@visible': true
+                      '@labelid': '{54019cd6-371f-473e-80b8-6526365ee19b}'
+                      labels:
+                        label:
+                          '@description': Step2
+                          '@languagecode': 1033
+                      control:
+                        '@id': bpf_sci_scitable1_sci_scibusinessprocessflow1:statecode
+                        '@classid': '{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}'
+                        '@datafieldname': statecode
+                        '@relationship': bpf_sci_scitable1_sci_scibusinessprocessflow1
+                        '@isrequired': true
+                        '@disabled': false
+  IsCustomizable: 1
+  CanBeDeleted: 1
+  LocalizedNames:
+    LocalizedName:
+      '@description': Information
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': A form for this entity.
+      '@languagecode': 1033
