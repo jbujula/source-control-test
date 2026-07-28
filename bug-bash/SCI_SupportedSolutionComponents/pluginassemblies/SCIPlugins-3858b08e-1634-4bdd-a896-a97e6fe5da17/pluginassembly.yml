@@ -1,0 +1,14 @@
+PluginAssembly:
+  '@FullName': SCIPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6c657bbb20fb046d
+  '@PluginAssemblyId': 3858b08e-1634-4bdd-a896-a97e6fe5da17
+  '@CustomizationLevel': 1
+  IsolationMode: 2
+  SourceType: 0
+  IntroducedVersion: 1.0
+  FileName: /pluginassemblies/SCIPlugins-3858b08e-1634-4bdd-a896-a97e6fe5da17/SCIPlugins.dll
+  PluginTypes:
+    PluginType:
+      '@AssemblyQualifiedName': SCIPlugins.SCIPlugin1, SCIPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6c657bbb20fb046d
+      '@PluginTypeId': ad67d5c9-5b41-4e78-a9da-f3d23aa68726
+      '@Name': SCIPlugins.SCIPlugin1
+      FriendlyName: 380edad5-505e-410c-927f-bd4a18d9e882

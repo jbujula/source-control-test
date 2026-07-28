@@ -1,0 +1,36 @@
+CanvasApp:
+  Name: sci_sciapp1defaultcommandlibrary_a0bb7
+  AppVersion: 2026-07-23T22:53:56.0000000Z
+  Status: Ready
+  CreatedByClientVersion: 3.26021.0.0
+  MinClientVersion: 0.0.0.0
+  Tags: '{"primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"20260129T054226Z-3.26021.0.0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.26021.0.0","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}'
+  IsCdsUpgraded: 0
+  GalleryItemId:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  BackgroundColor: rgba(0, 176, 240, 1)
+  DisplayName: SCIApp1_DefaultCommandLibrary
+  Description:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  CommitMessage: Saved by Command designer.
+  Publisher:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  AuthorizationReferences: '[]'
+  ConnectionReferences: '{}'
+  DatabaseReferences: '{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds"},"dataSources":{"SCITable1s":{"entitySetName":"sci_scitable1s","logicalName":"sci_scitable1"}}}}'
+  AppComponents: '[]'
+  AppComponentDependencies: '[]'
+  CanConsumeAppPass: 1
+  CanvasAppType: 1
+  BypassConsent: 0
+  EmbeddedApp:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  IntroducedVersion: 1.0
+  CdsDependencies: '{"cdsdependencies":[{"componenttype":1,"logicalname":"sci_scitable1"}]}'
+  IsCustomizable: 1
+  BackgroundImageUri: /canvasapps/sci_sciapp1defaultcommandlibrary_a0bb7/sci_sciapp1defaultcommandlibrary_a0bb7_BackgroundImageUri
+  DocumentUri: /canvasapps/sci_sciapp1defaultcommandlibrary_a0bb7/sci_sciapp1defaultcommandlibrary_a0bb7_DocumentUri.msapp
