@@ -1,9 +1,0 @@
-botcomponent:
-  '@schemaname': auto_agent_zjW9s.topic.ResetConversation
-  componenttype: 9
-  iscustomizable: 0
-  name: Reset Conversation
-  parentbotid:
-    schemaname: auto_agent_zjW9s
-  statecode: 0
-  statuscode: 1

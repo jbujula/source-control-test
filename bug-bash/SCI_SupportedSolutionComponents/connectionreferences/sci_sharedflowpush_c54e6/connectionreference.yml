@@ -1,8 +1,0 @@
-connectionreference:
-  '@connectionreferencelogicalname': sci_sharedflowpush_c54e6
-  connectionreferencedisplayname: Notifications SCI_LargeSolution-c54e6
-  connectorid: /providers/Microsoft.PowerApps/apis/shared_flowpush
-  iscustomizable: 1
-  promptingbehavior: 0
-  statecode: 0
-  statuscode: 1
