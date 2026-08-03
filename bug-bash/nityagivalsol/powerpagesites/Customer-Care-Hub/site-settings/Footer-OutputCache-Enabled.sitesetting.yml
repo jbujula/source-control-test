@@ -1,0 +1,5 @@
+description: Set whether the footer web template is output cached.
+id: 6576ecf2-51ee-48d7-a875-2db6cb6b7f19
+name: Footer/OutputCache/Enabled
+value: True
+websiteid: 9ac4288f-a909-4fb7-941d-8e1b53494015
