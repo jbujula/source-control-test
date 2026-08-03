@@ -1,9 +1,0 @@
-adx_websiteaccess_webrole:
-- d217ff14-c19f-4608-b497-f187ce5353e8
-id: e0652d70-6266-4a37-a5dd-2af948835e26
-managecontentsnippets: true
-managesitemarkers: true
-manageweblinksets: true
-name: Administrative permissions for Blank Template
-previewunpublishedentities: true
-websiteid: 9ac4288f-a909-4fb7-941d-8e1b53494015
