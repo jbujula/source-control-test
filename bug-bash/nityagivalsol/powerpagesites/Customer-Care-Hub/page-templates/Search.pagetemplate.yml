@@ -1,0 +1,8 @@
+entityname: adx_webpage
+id: 85d2dcf9-e52b-4bb9-ad2f-f0068ec1d24f
+isdefault: false
+name: Search
+rewriteurl: ~/Pages/Search.aspx
+usewebsiteheaderandfooter: true
+websiteid: 9ac4288f-a909-4fb7-941d-8e1b53494015
+webtemplateid: 4cc1e9f4-1cff-4583-ae38-b496d124faf0

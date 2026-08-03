@@ -1,0 +1,16 @@
+Publisher:
+  UniqueName: Crbb207
+  LocalizedNames:
+    LocalizedName:
+      '@description': Crbb207
+      '@languagecode': 1033
+  Descriptions: 
+  EMailAddress:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SupportingWebsiteUrl:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  CustomizationPrefix: cr64c
+  CustomizationOptionValuePrefix: 63682
+  Addresses: 
