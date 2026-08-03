@@ -1,0 +1,16 @@
+Publisher:
+  UniqueName: SCI
+  LocalizedNames:
+    LocalizedName:
+      '@description': SCI
+      '@languagecode': 1033
+  Descriptions: 
+  EMailAddress:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  SupportingWebsiteUrl:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
+  CustomizationPrefix: sci
+  CustomizationOptionValuePrefix: 91913
+  Addresses: 
