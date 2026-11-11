@@ -1,6 +1,6 @@
 CanvasApp:
   Name: sci_scicanvasapp1_02ca7
-  AppVersion: 2026-11-10T18:52:24.0000000Z
+  AppVersion: 2026-11-11T01:22:10.0000000Z
   Status: Ready
   CreatedByClientVersion: 3.26021.0.0
   MinClientVersion: 3.26021.0.0
@@ -11,9 +11,11 @@ CanvasApp:
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   BackgroundColor: RGBA(255,255,255,1)
   DisplayName: SCICanvasApp1
-  Description: Sample Canvas App for testing (Git edit 2)
+  Description: Sample Canvas App for testing (Git edit 2) (env edit 5)
   CommitMessage: Save app with description provided in publish dialog.
-  Publisher: ''
+  Publisher:
+    '@xsi:nil': true
+    '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   AuthorizationReferences: '[]'
   ConnectionReferences: '{}'
   DatabaseReferences: '{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"SCITable1s":{"entitySetName":"sci_scitable1s","logicalName":"sci_scitable1"}}}}'
