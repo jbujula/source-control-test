@@ -14,7 +14,7 @@ Screens:
           Variant: BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0
           Properties:
             Items: =SCITable1s
-            TemplateSize: =118
+            TemplateSize: =119
             X: =42
             Y: =154
           Children:
