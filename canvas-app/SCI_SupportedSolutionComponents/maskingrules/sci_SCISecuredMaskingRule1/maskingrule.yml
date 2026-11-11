@@ -1,0 +1,17 @@
+maskingrule:
+  '@name': sci_SCISecuredMaskingRule1
+  createdby: '{943d245b-36cc-f111-a05d-7ced8d6eab6c}'
+  description:
+    '@default': Testing
+    label:
+      '@description': Testing
+      '@languagecode': 1033
+  displayname:
+    '@default': SCISecuredMaskingRule1
+    label:
+      '@description': SCISecuredMaskingRule1
+      '@languagecode': 1033
+  iscustomizable: 1
+  maskedcharacter: '*'
+  modifiedby: '{943d245b-36cc-f111-a05d-7ced8d6eab6c}'
+  regularexpression: th(e|is|at)

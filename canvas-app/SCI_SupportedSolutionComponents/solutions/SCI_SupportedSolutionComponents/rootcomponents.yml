@@ -1,0 +1,73 @@
+RootComponents:
+  RootComponent:
+  - '@type': 1
+    '@schemaName': sci_scibusinessprocessflow1
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': sci_scitable1
+    '@behavior': 0
+  - '@type': 1
+    '@schemaName': sci_scitable2withattributeimage
+    '@behavior': 0
+  - '@type': 9
+    '@schemaName': sci_scioptionset1
+    '@behavior': 0
+  - '@type': 20
+    '@id': '{3d766448-d4fb-f011-840c-0022480972af}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{5470192f-b7fb-f011-840c-0022480972af}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{5fd06042-b8fb-f011-840c-0022480972af}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{e694fbd4-d3fb-f011-840c-0022480972af}'
+    '@behavior': 0
+  - '@type': 29
+    '@id': '{fd65f3fc-9a42-4a0d-b412-a683db3dcce9}'
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': sci_Image1
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': sci_sampleicon
+    '@behavior': 0
+  - '@type': 61
+    '@schemaName': sci_script.js
+    '@behavior': 0
+  - '@type': 62
+    '@schemaName': sci_SCIApp1
+    '@behavior': 0
+  - '@type': 91
+    '@id': '{3858b08e-1634-4bdd-a896-a97e6fe5da17}'
+    '@schemaName': SCIPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=6c657bbb20fb046d
+    '@behavior': 0
+  - '@type': 92
+    '@id': '{7cd2909e-50fd-f011-840c-0022480972af}'
+    '@behavior': 0
+  - '@type': 300
+    '@schemaName': sci_sciapp1defaultcommandlibrary_a0bb7
+    '@behavior': 0
+  - '@type': 300
+    '@schemaName': sci_scicanvasapp1_02ca7
+    '@behavior': 0
+  - '@type': 300
+    '@schemaName': sci_scicustompage1_c4c16
+    '@behavior': 0
+  - '@type': 372
+    '@id': '{5941163e-8d5b-40ee-952e-fa28339c5a92}'
+    '@schemaName': sci_5Fopen-20trivia-20db-20connector
+    '@behavior': 0
+  - '@type': 400
+    '@id': '{7f420f5b-dbfa-4272-833b-45c14dd561e6}'
+    '@behavior': 0
+  - '@type': 401
+    '@id': '{25690fc5-b270-430f-974d-d596661b6794}'
+    '@behavior': 0
+  - '@type': 431
+    '@schemaName': sci_scitable2withattributeimage sci_image1
+    '@behavior': 0
+  - '@type': 432
+    '@schemaName': sci_scitable2withattributeimage
+    '@behavior': 0

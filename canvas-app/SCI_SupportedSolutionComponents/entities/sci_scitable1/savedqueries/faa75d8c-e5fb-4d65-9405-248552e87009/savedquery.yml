@@ -1,0 +1,47 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{faa75d8c-e5fb-4d65-9405-248552e87009}'
+  layoutxml:
+    grid:
+      '@name': sci_scitable1s
+      '@jump': sci_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': sci_scitable1
+        '@id': sci_scitable1id
+        cell:
+        - '@name': sci_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 2
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': sci_scitable1
+        attribute:
+        - '@name': sci_scitable1id
+        - '@name': sci_name
+        - '@name': createdon
+        order:
+          '@attribute': sci_name
+          '@descending': false
+        filter:
+          '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': SCITable1 Associated View
+      '@languagecode': 1033

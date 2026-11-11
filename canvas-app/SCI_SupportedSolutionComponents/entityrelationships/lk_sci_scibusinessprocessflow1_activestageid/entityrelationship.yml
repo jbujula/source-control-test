@@ -1,0 +1,20 @@
+EntityRelationship:
+  '@Name': lk_sci_scibusinessprocessflow1_activestageid
+  EntityRelationshipType: OneToMany
+  IsCustomizable: 1
+  IntroducedVersion: 1.0
+  IsHierarchical: 0
+  ReferencingEntityName: sci_scibusinessprocessflow1
+  ReferencedEntityName: ProcessStage
+  CascadeAssign: NoCascade
+  CascadeDelete: NoCascade
+  CascadeArchive: NoCascade
+  CascadeReparent: NoCascade
+  CascadeShare: NoCascade
+  CascadeUnshare: NoCascade
+  ReferencingAttributeName: ActiveStageId
+  RelationshipDescription:
+    Descriptions:
+      Description:
+        '@description': Unique identifier of the active stage for the Business Process Flow instance.
+        '@languagecode': 1033

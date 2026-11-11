@@ -1,0 +1,14 @@
+{
+  "UsedTemplates": [],
+  "ComponentTemplates": [
+    {
+      "Name": "82b0174a293d47cfb156002a56d93706",
+      "Version": "1.0",
+      "IsComponentLocked": false,
+      "ComponentType": "CommandComponent",
+      "ComponentChangedSinceFileImport": true,
+      "ComponentAllowCustomization": true,
+      "CustomProperties": []
+    }
+  ]
+}

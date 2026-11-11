@@ -1,0 +1,119 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Open Trivia DB connector",
+    "description": "Connector for Open Trivia DB, a free to use, user-contributed trivia question database.",
+    "version": "1.0"
+  },
+  "host": "opentdb.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/api.php": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "response_code": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "The API appends a \"Response Code\" to each API Call to help tell what the API is doing.",
+                  "title": "Response Code"
+                },
+                "results": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string",
+                        "description": "The type of question. Either multiple or boolean.",
+                        "title": "Type"
+                      },
+                      "difficulty": {
+                        "type": "string",
+                        "description": "The difficulty level of the question. Either easy, medium, hard.",
+                        "title": "Difficulty"
+                      },
+                      "category": {
+                        "type": "string",
+                        "description": "The category of the question.",
+                        "title": "Category"
+                      },
+                      "question": {
+                        "type": "string",
+                        "description": "The trivia question to be answered.",
+                        "title": "Question"
+                      },
+                      "correct_answer": {
+                        "type": "string",
+                        "description": "The correct answer to the question.",
+                        "title": "Correct Answer"
+                      },
+                      "incorrect_answers": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "description": "The incorrect answers to the question.",
+                        "title": "Incorrect Answers"
+                      }
+                    }
+                  },
+                  "description": "results"
+                }
+              }
+            }
+          }
+        },
+        "operationId": "Read",
+        "parameters": [
+          {
+            "name": "amount",
+            "in": "query",
+            "required": true,
+            "type": "integer",
+            "description": "The number of questions to retrieve. Maximum number allowed is 50."
+          },
+          {
+            "name": "category",
+            "in": "query",
+            "required": false,
+            "type": "integer",
+            "format": "int32",
+            "description": "The category of questions to be retrieved. Only 1 Category can be requested per API Call. To get questions from any category, don't specify a category."
+          },
+          {
+            "name": "difficulty",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "description": "The difficulty of a question. Can be either \"easy\", \"medium\", or \"hard\".  To get questions from any difficulty, don't specify a difficulty."
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "required": false,
+            "type": "string",
+            "description": "The type of question. Either \"multiple\" for multiple choice or \"boolean\" for true/false."
+          }
+        ],
+        "summary": "Read trivia questions",
+        "description": "This will request trivia questions from Open Trivia DB."
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "security": [],
+  "tags": [],
+  "securityDefinitions": {}
+}

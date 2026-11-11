@@ -1,0 +1,43 @@
+attribute:
+  '@PhysicalName': bpf_Duration
+  Type: int
+  Name: bpf_duration
+  LogicalName: bpf_duration
+  RequiredLevel: none
+  DisplayMask: ValidForAdvancedFind|ValidForForm|ValidForGrid
+  ImeMode: auto
+  ValidForUpdateApi: 0
+  ValidForReadApi: 1
+  ValidForCreateApi: 0
+  IsCustomField: 1
+  IsAuditEnabled: 0
+  IsSecured: 0
+  IntroducedVersion: 1.0
+  IsCustomizable: 1
+  IsRenameable: 1
+  CanModifySearchSettings: 1
+  CanModifyRequirementLevelSettings: 1
+  CanModifyAdditionalSettings: 1
+  SourceType: 1
+  IsGlobalFilterEnabled: 0
+  IsSortableEnabled: 0
+  CanModifyGlobalFilterSettings: 1
+  CanModifyIsSortableSettings: 1
+  IsDataSourceSecret: 0
+  AutoNumberFormat: ''
+  IsSearchable: 0
+  IsFilterable: 0
+  IsRetrievable: 0
+  IsLocalizable: 0
+  Format: duration
+  MinValue: 0
+  MaxValue: 2147483647
+  displaynames:
+    displayname:
+      '@description': Duration
+      '@languagecode': 1033
+  Descriptions:
+    Description:
+      '@description': Duration of Business Process Flow
+      '@languagecode': 1033
+  FormulaDefinitionFileName: /Formulas/sci_scibusinessprocessflow1-bpf_duration.xaml

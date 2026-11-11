@@ -1,0 +1,10 @@
+botcomponent:
+  '@schemaname': auto_agent_zjW9s.topic.Greeting
+  componenttype: 9
+  description: This topic is triggered when the user greets the agent.
+  iscustomizable: 0
+  name: Greeting
+  parentbotid:
+    schemaname: auto_agent_zjW9s
+  statecode: 0
+  statuscode: 1

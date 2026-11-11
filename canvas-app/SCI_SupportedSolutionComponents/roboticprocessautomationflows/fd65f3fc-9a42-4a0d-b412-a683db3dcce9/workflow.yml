@@ -1,0 +1,38 @@
+Workflow:
+  '@WorkflowId': '{fd65f3fc-9a42-4a0d-b412-a683db3dcce9}'
+  '@Name': SCIDesktopFlow1
+  JsonFileName: /roboticprocessautomationflows/fd65f3fc-9a42-4a0d-b412-a683db3dcce9/SCIDesktopFlow1-FD65F3FC-9A42-4A0D-B412-A683DB3DCCE9.json
+  Type: 1
+  Subprocess: 0
+  Category: 6
+  Mode: 0
+  Scope: 4
+  OnDemand: 0
+  TriggerOnCreate: 0
+  TriggerOnDelete: 0
+  AsyncAutodelete: 0
+  SyncWorkflowLogOnFailure: 0
+  StateCode: 1
+  StatusCode: 2
+  RunAs: 1
+  IsTransacted: 1
+  IntroducedVersion: 1.0
+  IsCustomizable: 1
+  UIFlowType: 2
+  IsCustomProcessingStepAllowedForOtherPublishers: 1
+  ModernFlowType: 0
+  Metadata: '{"clientversion":"2.64.00105.26019","isvalid":true,"$schema":"https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#","schemaVersion":"ROBIN_20211012","containsActiveConnections":false,"containsGptPredictActions":false,"containsActiveCopilotActions":false,"containsActiveWorkQueuesActions":false,"containsActiveLogMessageActions":false,"containsActiveRepairWithAIActions":false,"containsActiveCredentialsActions":false,"multipleRequestsState":0,"scriptType":0,"disableScreenshotCaptureOnError":false,"missingUiElementRepairType":0,"flowTimeout":null,"screenResolution":null,"flowLogsVerbosity":null,"flowGeneratedBy":"PADDesigner"}'
+  Inputs: '{"schema":null}'
+  Outputs: '{"schema":null}'
+  Dependencies: '{"childFlows":[],"workQueues":[],"environmentVariables":[],"requiredBinaries":["6bc15bb5-e59c-47da-8917-2ef60b784361","e210c97a-c20a-40b1-b470-07acf959dcd8","ba8c2ab1-2fb7-4239-b515-d234fe5dcb22","9413fa4e-ff4e-401e-8411-8f151c8bbd21"]}'
+  ConnectionReferences: '[]'
+  Definition: "\"@@ConnectionString: ''\\r\\n@@Type: 'Local'\\r\\n@@DesktopType: 'local'\\r\\n@@DisplayName: 'Local computer'\\r\\nIMPORT 'controlRepo.appmask' AS appmask\\r\\nIMPORT 'imageRepo.imgrepo' AS imgrepo\\r\\n@SENSITIVE: []\\r\\nDateTime.GetCurrentDateTime.Local DateTimeFormat: DateTime.DateTimeFormat.DateAndTime CurrentDateTime=> CurrentDateTime\\r\\n\""
+  SchemaVersion: 2022.07
+  Claims: '[]'
+  DesktopFlowModules: '[]'
+  Credentials: '[]'
+  PrimaryEntity: none
+  LocalizedNames:
+    LocalizedName:
+      '@languagecode': 1033
+      '@description': SCIDesktopFlow1

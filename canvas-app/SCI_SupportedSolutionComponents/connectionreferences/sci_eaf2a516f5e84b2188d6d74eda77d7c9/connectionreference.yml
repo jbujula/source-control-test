@@ -1,0 +1,8 @@
+connectionreference:
+  '@connectionreferencelogicalname': sci_eaf2a516f5e84b2188d6d74eda77d7c9
+  connectionreferencedisplayname: Connection Reference - eaf2a516f5e84b2188d6d74eda77d7c9
+  connectorid: /providers/Microsoft.PowerApps/apis/shared_sharepointonline
+  iscustomizable: 1
+  promptingbehavior: 0
+  statecode: 0
+  statuscode: 1

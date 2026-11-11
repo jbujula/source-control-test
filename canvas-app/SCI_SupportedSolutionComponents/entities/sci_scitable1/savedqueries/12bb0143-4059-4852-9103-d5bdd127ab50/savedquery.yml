@@ -1,0 +1,41 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 0
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{12bb0143-4059-4852-9103-d5bdd127ab50}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': sci_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': sci_scitable1id
+        cell:
+        - '@name': sci_name
+          '@width': 300
+        - '@name': createdon
+          '@width': 125
+  querytype: 1
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': sci_scitable1
+        attribute:
+        - '@name': sci_scitable1id
+        - '@name': sci_name
+        - '@name': createdon
+        order:
+          '@attribute': sci_name
+          '@descending': false
+  IntroducedVersion: 1.0.0.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': SCITable1 Advanced Find View
+      '@languagecode': 1033

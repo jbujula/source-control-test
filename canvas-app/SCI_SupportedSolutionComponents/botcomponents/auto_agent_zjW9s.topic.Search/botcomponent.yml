@@ -1,0 +1,10 @@
+botcomponent:
+  '@schemaname': auto_agent_zjW9s.topic.Search
+  componenttype: 9
+  description: Create generative answers from knowledge sources.
+  iscustomizable: 0
+  name: Conversational boosting
+  parentbotid:
+    schemaname: auto_agent_zjW9s
+  statecode: 0
+  statuscode: 1

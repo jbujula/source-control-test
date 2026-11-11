@@ -1,0 +1,71 @@
+savedquery:
+  IsCustomizable: 1
+  CanBeDeleted: 0
+  isquickfindquery: 1
+  isprivate: 0
+  isdefault: 1
+  savedqueryid: '{6f807635-7038-4d48-9fb4-e951231d23a9}'
+  layoutxml:
+    grid:
+      '@name': resultset
+      '@jump': bpf_name
+      '@select': 1
+      '@icon': 1
+      '@preview': 1
+      row:
+        '@name': result
+        '@id': businessprocessflowinstanceid
+        cell:
+        - '@name': bpf_sci_scitable1id
+          '@width': 300
+        - '@name': activestageid
+          '@width': 150
+        - '@name': statuscode
+          '@width': 150
+        - '@name': createdon
+          '@width': 150
+        - '@name': processid
+          '@width': 300
+  querytype: 4
+  fetchxml:
+    fetch:
+      '@version': 1.0
+      '@mapping': logical
+      entity:
+        '@name': sci_scibusinessprocessflow1
+        attribute:
+        - '@name': businessprocessflowinstanceid
+        - '@name': bpf_name
+        - '@name': createdon
+        - '@name': bpf_sci_scitable1id
+        - '@name': activestageid
+        - '@name': statecode
+        - '@name': statuscode
+        - '@name': createdby
+        - '@name': processid
+        order:
+          '@attribute': bpf_name
+          '@descending': false
+        filter:
+        - '@type': and
+          condition:
+            '@attribute': statecode
+            '@operator': eq
+            '@value': 0
+        - '@type': or
+          '@isquickfindfields': 1
+          condition:
+          - '@attribute': bpf_name
+            '@operator': like
+            '@value': '{0}'
+          - '@attribute': bpf_sci_scitable1id
+            '@operator': like
+            '@value': '{0}'
+          - '@attribute': activestageid
+            '@operator': like
+            '@value': '{0}'
+  IntroducedVersion: 1.0
+  LocalizedNames:
+    LocalizedName:
+      '@description': Quick Find Active SCIBusinessProcessFlow1
+      '@languagecode': 1033

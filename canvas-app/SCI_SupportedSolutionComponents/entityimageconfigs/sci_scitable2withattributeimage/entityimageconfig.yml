@@ -1,0 +1,3 @@
+EntityImageConfig:
+  parententitylogicalname: sci_scitable2withattributeimage
+  primaryimageattribute: sci_image1

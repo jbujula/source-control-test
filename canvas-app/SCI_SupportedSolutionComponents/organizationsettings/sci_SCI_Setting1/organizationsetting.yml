@@ -1,0 +1,4 @@
+organizationsetting:
+  '@settingdefinitionid.uniquename': sci_SCI_Setting1
+  iscustomizable: 1
+  value: 99
