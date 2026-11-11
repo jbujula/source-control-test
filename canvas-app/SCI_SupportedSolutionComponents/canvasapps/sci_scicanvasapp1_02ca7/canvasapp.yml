@@ -11,7 +11,7 @@ CanvasApp:
     '@xmlns:xsi': http://www.w3.org/2001/XMLSchema-instance
   BackgroundColor: RGBA(255,255,255,1)
   DisplayName: SCICanvasApp1
-  Description: Sample Canvas App for testing
+  Description: Sample Canvas App for testing (Git edit 2)
   CommitMessage: Save app with description provided in publish dialog.
   Publisher: ''
   AuthorizationReferences: '[]'
